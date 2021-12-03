@@ -6,8 +6,6 @@ import org.apache.camel.model.dataformat.JsonLibrary;
 
 import org.apache.camel.processor.idempotent.kafka.KafkaIdempotentRepository;
 
-
-
 public class IdempotentFilter extends RouteBuilder {
 
     @Override
